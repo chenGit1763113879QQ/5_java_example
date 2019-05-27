@@ -1,0 +1,7 @@
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: application
+  meta: http://10.139.33.158:17986
+app:
+  id: test

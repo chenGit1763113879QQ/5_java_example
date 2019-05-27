@@ -1,0 +1,15 @@
+ __     __  _    _   _   _   _____     ____    _   _    _____     _    _    _____   ______   _____
+ \ \   / / | |  | | | \ | | |  __ \   / __ \  | \ | |  / ____|   | |  | |  / ____| |  ____| |  __ \
+  \ \_/ /  | |  | | |  \| | | |__) | | |  | | |  \| | | |  __    | |  | | | (___   | |__    | |__) |
+   \   /   | |  | | | . ` | |  _  /  | |  | | | . ` | | | |_ |   | |  | |  \___ \  |  __|   |  _  /
+    | |    | |__| | | |\  | | | \ \  | |__| | | |\  | | |__| |   | |__| |  ____) | | |____  | | \ \
+    |_|     \____/  |_| \_| |_|  \_\  \____/  |_| \_|  \_____|    \____/  |_____/  |______| |_|  \_\
+
+
+${AnsiColor.BRIGHT_RED}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+YunRong Version: ${application.version}${application.formatted-version}
+Powered By 云融 Group
+banner generator url: https://devops.datenkollektiv.de/banner.txt/index.html
+banner font: big
+${AnsiColor.BLACK}

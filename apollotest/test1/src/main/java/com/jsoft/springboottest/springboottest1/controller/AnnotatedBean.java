@@ -21,7 +21,7 @@ public class AnnotatedBean {
 
 	@ApolloConfig
 	private Config config;
-	@ApolloConfig("FX.apollo")
+	@ApolloConfig("application")
 	private Config anotherConfig;
 
 	@PostConstruct
@@ -57,7 +57,7 @@ public class AnnotatedBean {
 		}
 	}
 
-	@ApolloConfigChangeListener({ "application", "FX.apollo" })
+	@ApolloConfigChangeListener({ "application" })
 	private void anotherChangeHandler(ConfigChangeEvent changeEvent) {
 		logger.info("[anotherChangeHandler]Changes for namespace {}", changeEvent.getNamespace());
 		for (String key : changeEvent.changedKeys()) {
